@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大圣横幅切换特效--dashengBanner</title>
+<link rel="stylesheet" type="text/css" href="css/dashengBanner.css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.banner.js"></script>
+<script language="javascript">
+$(document).ready(function(){
+	$(".banner").dashengBanner({
+	speed: 	"nomarl",	//显示速度:"fast"|"nomarl"|"slow"|(毫秒数) 默认值:"nomarl"
+	alpha:	.5,			//滚动透明度:(0-1的小数) 默认值:0.5
+	step:	1,			//滚动步长:(块为单位) 默认值:1
+	auto:true,			//自动滚动:true|false 默认值:false
+	delay:4				//自滚延时:(秒) 默认值:3
+	});
+});
+</script>
+</head>
+
+<body>
+
+<div class="banner">
+	<div class="ban_content"><img src="images/ban1.jpg" /></div>
+	<div class="ban_bottom">
+		<div class="ban_b_left" id="prev_btn"><img src="images/ban_left.jpg" /></div>
+		<div class="ban_b_mid">
+			<div class="ban_b_content">
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban1.jpg" /></dt>
+					  <dd><h5>索尼walkman音乐手机 1</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban2.jpg"  /></dt>
+					  <dd><h5>索尼walkman音乐手机 2</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban1.jpg" /></dt>
+					  <dd><h5>索尼walkman音乐手机 3</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban2.jpg" /></dt>
+					  <dd><h5>索尼walkman音乐手机 4</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban1.jpg" /></dt>
+					  <dd><h5>索尼walkman音乐手机 5</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+				<div class="ban_b_list">
+				  <dl>
+					  <dt><img src="images/img.gif" rel="images/ban2.jpg" /></dt>
+					  <dd><h5>索尼walkman音乐手机 6</h5></dd>
+					  <dd><h7>追求自然</h7></dd>
+				  </dl>
+				</div>
+			</div>			
+		</div>
+		<div class="ban_b_right" id="next_btn"><img src="images/ban_right.jpg" /></div>	
+	</div>
+</div>
+
+</body>
+</html>
